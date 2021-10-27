@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    background-color: lightgray;
+    overflow: hidden;
+  }
+  
+  .wrapper {
+    display: flex;
+    position: relative;
+  }
+  
+  .wrapper .sidebar {
+    position: fixed;
+    height: 100%;
+    width: 225px;
+    background-color: white;
+    padding: 100px 40px;
+    border-right-style: solid;
+    border-color:#ef5d57 ;
+  }
+
+
+
+  
+  .wrapper .main-content {
+    width: 100%;
+    margin: 100px 300px 114px ;
+  }
+  
+  .main-content img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+  }
+
+
+  nav {
+    background-color:#ef5d57;
+  }
+  
+
+  footer {
+      position: fixed;
+      bottom:0;
+      height: 40px;
+      width: 100%;
+      background: #ef5d57;
+      color: white;
+    
+  }
+
+  footer p
+  {
+      padding-top: 7px;
+      padding-left: 10px;
+  }
+  
+  .navbar-nav {
+    padding-left: 80px;
+  }
+
+
+
+
+  .self-info
+  {
+      padding-top: 20px;
+  }
+
+  .self-info h3
+  {
+      font-size: 40px;
+      
+  }
+
+  .self-info span
+  {
+    color: #ef5d57;
+    font-style: italic;
+  }
+
+
+
+  
+  
+  .wrapper .main-content-links {
+    width: 100%;
+    margin: 100px 300px 285px ;
+  }
+  
+  .ulist {
+    padding-left: 50px;
+  }
+  
+  button {
+    margin-right: 10px;
+  }
+  
+  .wrapper .main-content-tutlinks {
+    width: 100%;
+    margin: 100px 300px 326px ; 
+  }
