@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .wrapper {
     display: flex;
     position: relative;
@@ -23,6 +24,35 @@
     width: 250px;
     border-radius: 50%;
 }
+=======
+
+
+.wrapper {
+    display: flex;
+    position: relative;
+}
+
+.wrapper .sidebar {
+    position: fixed;
+    height: 79.5%;
+    width: 200px;
+    background-color: white;
+    padding: 100px 30px;
+    border-right-style: solid;
+    border-color:#ef5d57 ;
+}
+
+.wrapper .main-content {
+    width: 100%;
+    margin: 100px 300px 249px ;
+}
+
+.main-content img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+>>>>>>> 69cab96cfcc1396a58349dddc6a14258e071de32
 nav {
     background-color:#ef5d57;
     
@@ -73,4 +103,8 @@ footer {
 .wrapper .main-content-tutlinks {
     width: 100%;
     margin: 100px 300px 410px;
+<<<<<<< HEAD
  }
+=======
+ }
+>>>>>>> 69cab96cfcc1396a58349dddc6a14258e071de32
