@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .wrapper {
     display: flex;
     position: relative;
@@ -25,7 +25,7 @@
     width: 250px;
     border-radius: 50%;
 }
-=======
+
 
 
 .wrapper {
@@ -53,7 +53,7 @@
     width: 250px;
     border-radius: 50%;
 }
->>>>>>> 69cab96cfcc1396a58349dddc6a14258e071de32
+
 nav {
     background-color:#ef5d57;
     
@@ -104,8 +104,4 @@ footer {
 .wrapper .main-content-tutlinks {
     width: 100%;
     margin: 100px 300px 410px;
-<<<<<<< HEAD
- }
-=======
- }
->>>>>>> 69cab96cfcc1396a58349dddc6a14258e071de32
+}
