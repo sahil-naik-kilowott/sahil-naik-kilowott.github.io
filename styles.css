@@ -1,118 +1,78 @@
-.header {
-    background: #f44;
-    height: 50px;
-    
+
+
+.wrapper {
+    display: flex;
+    position: relative;
 }
 
-#text-col a
-{
-    padding-left: 100px;
-    color:rgb(255, 254, 255);
-    font-size: 20px;
-    
-    
-}
-
-
-
-.header img
-{
-    padding-top: 10px;
+.wrapper .sidebar {
+    position: fixed;
+    height: 79.5%;
     width: 200px;
-    height: 40px;
+    background-color: white;
+    padding: 100px 30px;
+    border-right-style: solid;
+    border-color:#ef5d57 ;
 }
 
-
-.login a
-{
-    color:rgb(255, 254, 255);
-    font-size: 20px;
-}
-
-
-
-
-
-.footer {
-    position: fixed;
-    bottom:0;
-    height: 40px;
+.wrapper .main-content {
     width: 100%;
-    background: #f44;
+    margin: 100px 300px 249px ;
+}
+
+.main-content img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+nav {
+    background-color:#ef5d57;
+    
+}
+
+.info h1
+{
+    padding-right: 100px;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(197, 196, 196);
+    overflow: hidden;
+}
+
+
+footer {
+    padding: 10px 30px;
+    background-color:#ef5d57;
     color: white;
-    padding-top: 10px;
 }
 
-.main {
-    height: 100%;
-    
+.navbar-nav {
+    padding-left: 80px;
 }
 
-#mainc
-{
-    height: 100%;
-    border-left-style: solid;
-    padding: 0;
-    border-color: #ef5d57
+.wrapper .main-content-links {
+    width: 100%;
+    margin: 100px 300px 370px ;
 }
 
-#side
-{
-    height:200px;
-    
+.ulist {
+    padding-left: 40px;
 }
 
-.content h1
-{
-    padding-top: 40px;
+.login a{
+   float:right;
 }
 
-.content {
-    background-color: lightgrey;
-    bottom: 40px;
-    top:0px;
-    right:0px;
-    
-}
-
-
-
-/* Sidebar Styles */
-.sidebar {
-    position: fixed;
-    left: 0;
-    
-}
-
-.sidebar-nav {
-    list-style: none;
-}
-
-.sidebar-nav p {
-    text-indent: 60px;
-    line-height: 40px;
-}
-
-.sidebar-nav li {
-    text-indent: 20px;
-    line-height: 40px;
-}
-
-.sidebar-nav li a {
-    display: block;
-    text-decoration: none;
-    color: gray;
-    /* color: #999999; */
-}
-
-.sidebar-nav li a:hover {
-    text-decoration: none;
-    color: #f44;
-    /* background: rgba(255,255,255,0.2); */
-}
-
-.sidebar-nav li a:active,
-.sidebar-nav li a:focus {
-    color: #f44;
-    text-decoration: none;
-}
+.wrapper .main-content-tutlinks {
+    width: 100%;
+    margin: 100px 300px 410px;
+ }
